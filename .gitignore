@@ -1,0 +1,7 @@
+# Ignore Python cache and notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Ignore auth and config
+twitter_auth.json
