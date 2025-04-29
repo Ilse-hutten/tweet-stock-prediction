@@ -15,7 +15,7 @@ This repository contains Jupyter notebooks and Python scripts for predicting sto
 ## 🔁 Project Workflow
 
 ### 1. Data Collection
-- Tweets were scraped using Playwright for both Amazon and Netflix.
+- Tweets were scraped using Playwright for both Amazon and Netflix (note that X sometimes changes its DOM structure so might have to amend selector).
 - Raw tweet data was cleaned and preprocessed for sentiment analysis.
 
 ### 2. Sentiment Analysis & ML Modeling
@@ -52,9 +52,4 @@ This repository contains Jupyter notebooks and Python scripts for predicting sto
 - Test on more stocks and over longer periods.
 - Incorporate technical indicators alongside sentiment features.
 - Experiment with ensemble models or LSTM-based approaches.
-
----
-
-## 📂 Repository Structure
-
 
