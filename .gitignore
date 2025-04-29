@@ -2,6 +2,11 @@
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+*.html
+*.xlsx
+old/
+test.png
+*.Zone.Identifier
 
 # Ignore auth and config
 twitter_auth.json
