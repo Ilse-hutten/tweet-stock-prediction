@@ -58,9 +58,7 @@ The chart below compares the indexed performance of the sentiment-based trading 
 
 ![Strategy vs Buy & Hold Table](notebooks/images/strategy_vs_buyhold.png)
 
-
 Below is a summary of the performance metrics comparing the sentiment-based strategy to buy-and-hold for Amazon and Netflix.
-
 ![Performance Table](notebooks/images/strategy_vs_buyhold_table.png)
 
 ### Summary
