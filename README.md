@@ -1,4 +1,4 @@
-# 🧠 Tweet Sentiment Trading Strategy
+# Tweet Sentiment Trading Strategy
 
 This repository contains Jupyter notebooks and Python scripts for predicting stock price movements of **Netflix** and **Amazon** using supervised machine learning models, based on Twitter/X sentiment data. The project evaluates the performance of **Logistic Regression**, **Multi-Layer Perceptron (MLP)**, and **Support Vector Machine (SVM)** classifiers, and assesses their effectiveness via **backtested trading strategies**.
 
@@ -60,8 +60,7 @@ The chart below compares the indexed performance of the sentiment-based trading 
 
 Below is a summary of the performance metrics comparing the sentiment-based strategy to buy-and-hold for Amazon and Netflix.
 ![Performance Table](notebooks/images/strategy_vs_buyhold_table.png)
-
-### Summary
+### Results Summary
 - For both Amazon and Netflix, the sentiment-based trading strategies **outperformed** a basic buy-and-hold strategy during the backtesting period.
 - However, **model performance metrics** (accuracy, precision, recall) were **relatively low**, aligning with findings in similar academic research.
 - This suggests that while some predictive power exists, results could be driven partly by chance. **Further improvements**, including more features, alternative sentiment models, and larger datasets, are recommended for enhanced strategy robustness.
