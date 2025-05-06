@@ -1,6 +1,6 @@
 # Tweet Sentiment Trading Strategy
 
-This repository contains Jupyter notebooks and Python scripts for predicting stock price movements of **Netflix** and **Amazon** using supervised machine learning models, based on Twitter/X sentiment data. The project evaluates the performance of **Logistic Regression**, **Multi-Layer Perceptron (MLP)**, and **Support Vector Machine (SVM)** classifiers, and assesses their effectiveness via **backtested trading strategies**.
+This repository contains Jupyter notebooks for predicting stock price movements of **Netflix** and **Amazon** using supervised machine learning models, based on Twitter/X sentiment data. The project evaluates the performance of **Logistic Regression**, **Multi-Layer Perceptron (MLP)**, and **Support Vector Machine (SVM)** classifiers, and assesses their effectiveness via **backtested trading strategies**.
 
 ---
 
