@@ -1,0 +1,15 @@
+pandas
+numpy
+yfinance
+scikit-learn
+nltk
+vaderSentiment
+preprocessor
+matplotlib
+seaborn
+wordcloud
+plotly
+kaleido
+nest_asyncio
+playwright
+notebook
