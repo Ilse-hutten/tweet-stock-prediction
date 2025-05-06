@@ -44,23 +44,24 @@ This repository contains Jupyter notebooks and Python scripts for predicting sto
 
 The chart below shows the aggregated VADER sentiment values for Netflix and Amazon:
 
-![Sentiment Distribution](assets/sentiment_distribution.png)
+![Sentiment Distribution](notebooks/images/sentiment_distribution.png)
 
 ### Model Performance
 
 The graph below shows the performance of the models. Note that recall is very high, while precision is relatively low. This indicates that the models are able to catch most of the positive signals but also generate many false positives. Sentiment alone is a weak predictor of stock price movements, which aligns with findings in academic research, where predictive power tends to be low unless combined with other technical indicators or news.
 
-![Model Performance](images/model_performance.png)
+![Model Performance](notebooks/images/model_performance.png)
 
 ### Trading Strategy vs. Buy & Hold
 
 The chart below compares the indexed performance of the sentiment-based trading strategy to a buy-and-hold benchmark for Amazon and Netflix respectively.
 
-![Strategy vs Buy & Hold](images/strategy_vs_buyhold.png)
+![Strategy vs Buy & Hold Table](notebooks/images/strategy_vs_buyhold_table.png)
+
 
 Below is a summary of the performance metrics comparing the sentiment-based strategy to buy-and-hold for Amazon and Netflix.
 
-![Performance Table](images/strategy_vs_buyhold_table.png)
+![Performance Table](notebooks/images/strategy_vs_buyhold_table.png)
 
 ### Summary
 - For both Amazon and Netflix, the sentiment-based trading strategies **outperformed** a basic buy-and-hold strategy during the backtesting period.
