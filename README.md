@@ -40,6 +40,29 @@ This repository contains Jupyter notebooks and Python scripts for predicting sto
 
 ## 📈 Results
 
+### Sentiment Distribution
+
+The chart below shows the aggregated VADER sentiment values for Netflix and Amazon:
+
+![Sentiment Distribution](assets/sentiment_distribution.png)
+
+### Model Performance
+
+The graph below shows the performance of the models. Note that recall is very high, while precision is relatively low. This indicates that the models are able to catch most of the positive signals but also generate many false positives. Sentiment alone is a weak predictor of stock price movements, which aligns with findings in academic research, where predictive power tends to be low unless combined with other technical indicators or news.
+
+![Model Performance](images/model_performance.png)
+
+### Trading Strategy vs. Buy & Hold
+
+The chart below compares the indexed performance of the sentiment-based trading strategy to a buy-and-hold benchmark for Amazon and Netflix respectively.
+
+![Strategy vs Buy & Hold](images/strategy_vs_buyhold.png)
+
+Below is a summary of the performance metrics comparing the sentiment-based strategy to buy-and-hold for Amazon and Netflix.
+
+![Performance Table](images/strategy_vs_buyhold_table.png)
+
+### Summary
 - For both Amazon and Netflix, the sentiment-based trading strategies **outperformed** a basic buy-and-hold strategy during the backtesting period.
 - However, **model performance metrics** (accuracy, precision, recall) were **relatively low**, aligning with findings in similar academic research.
 - This suggests that while some predictive power exists, results could be driven partly by chance. **Further improvements**, including more features, alternative sentiment models, and larger datasets, are recommended for enhanced strategy robustness.
@@ -49,7 +72,7 @@ This repository contains Jupyter notebooks and Python scripts for predicting sto
 ## 🚀 Future Work
 
 - Integrate additional sentiment sources (e.g., Reddit, news headlines).
-- Test on more stocks and over longer periods.
+- Test on more stocks and over longer periods, and integrate trading costs for more realistic results.
 - Incorporate technical indicators alongside sentiment features.
 - Experiment with ensemble models or LSTM-based approaches.
 
